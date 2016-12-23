@@ -57,4 +57,4 @@ nnoremap <Leader>q :q
 nnoremap <Leader>fw :Gwrite
 nnoremap <Leader>fc :Gcommit
 nnoremap <Leader>fpp :Gpush
-
+nmap <Leader>s <Plug>(easymotion-s) 
