@@ -26,6 +26,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 colorscheme white-sand
@@ -48,6 +49,7 @@ let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 let g:go_metalinter_autosave = 1
 let g:go_metalinter_deadline = "2s"
 
+let g:NERDSpaceDelims = 1
 
 let mapleader=","
 nnoremap <Leader>q :q
