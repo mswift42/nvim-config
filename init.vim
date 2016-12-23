@@ -27,6 +27,7 @@ Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 colorscheme white-sand
