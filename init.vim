@@ -28,6 +28,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 colorscheme white-sand
