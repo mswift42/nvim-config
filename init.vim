@@ -50,6 +50,8 @@ let g:go_metalinter_deadline = "2s"
 
 
 let mapleader=","
+nnoremap <Leader>q :q
 nnoremap <Leader>fw :Gwrite
 nnoremap <Leader>fc :Gcommit
 nnoremap <Leader>fpp :Gpush
+
