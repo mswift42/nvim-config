@@ -29,6 +29,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
+Plug 'godoctor/godoctor.vim'
 call plug#end()
 
 colorscheme white-sand
