@@ -10,6 +10,7 @@ set showcmd
 set ruler
 set ignorecase
 set smartcase
+set mouse=a
 nnoremap ; :    
 nnoremap Q @q   
 
@@ -22,18 +23,19 @@ Plug 'fmoralesc/vim-tutor-mode'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
-Plug 'vim-syntastic/syntastic'
+" Plug 'vim-syntastic/syntastic'
 Plug 'vim-ctrlspace/vim-ctrlspace'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
-Plug 'altercation/vim-colors-solarized'
 Plug 'godoctor/godoctor.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'lifepillar/vim-solarized8'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
-colorscheme white-sand
+colorscheme Beachy
 
 set autowrite
 
